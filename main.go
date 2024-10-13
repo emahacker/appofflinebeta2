@@ -54,7 +54,7 @@ func formatTime(ms int64) string {
 
 func sendEmail(to, body string) error {
 	e := email.NewEmail()
-	e.From = "YourApp <your-email@gmail.com>"
+	e.From = "nedneweuropeandream@gmail.com"
 	e.To = []string{to}
 	e.Subject = "Daily Time Report"
 	e.Text = []byte(body)
